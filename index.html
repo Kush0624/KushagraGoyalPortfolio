@@ -49,6 +49,7 @@
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
+<div class="loader"></div>
 <div id="colorlib-page">
 <div class="container-wrap">
 <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
@@ -640,6 +641,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 </div>
 </div>
 </div>
+<script>
+    var x = document.getElementsByClassName("loader");
+    window.addEventListener('load',function load(){
+      x[0].style.display='none';});
+  
+</script>
 
 <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.min.js"></script>
 
